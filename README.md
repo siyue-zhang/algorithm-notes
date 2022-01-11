@@ -8,5 +8,7 @@
 Distance Matrix
 ![](https://sunny73.github.io/2018/11/07/dtw%E7%AE%97%E6%B3%95/1.png)
 
+![](./dtw1.JPG)
+![](./dtw2.JPG)
 
 
