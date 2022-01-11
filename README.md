@@ -6,9 +6,13 @@
 * **Optimal global alignment** between two time series, exploiting temporal distortions between them
 
 Distance Matrix
-![](https://sunny73.github.io/2018/11/07/dtw%E7%AE%97%E6%B3%95/1.png)
 
-![](./dtw1.JPG)
-![](./dtw2.JPG)
+<image src=https://sunny73.github.io/2018/11/07/dtw%E7%AE%97%E6%B3%95/1.png width=400\>
+  
+<image src=./dtw1.JPG width=600\>
+  
+<image src=./dtw2.JPG width=600\>
+
+
 
 
