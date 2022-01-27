@@ -10,11 +10,17 @@
 
 Distance Matrix
 
+<p align=center>
 <img src=https://sunny73.github.io/2018/11/07/dtw%E7%AE%97%E6%B3%95/1.png width=400>
-  
+<p/>
+
+<p align=center>
 <img src=./dtw1.JPG width=600>
-  
+<p/>
+
+<p align=center>
 <img src=./dtw2.JPG width=600>
+<p/>
 
 ### Gaussian Process Regression
 
@@ -38,5 +44,5 @@ To get predictions at unseen points of interest, x*, the predictive distribution
 A Gaussian process is a probability distribution over possible functions that fit a set of points. A Gaussian processes regression model provides uncertainty estimations together with prediction values. The prior knowledge of the form of functions can be integrated by using kernel functions.
 
 <p align=center>
-<img src=https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-24_at_3.44.34_PM.png width=500>
+<img src=https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-24_at_3.44.34_PM.png width=300>
 <p/>
