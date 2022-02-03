@@ -2,6 +2,7 @@
 
 * [DTW](#dynamic-time-warping)
 * [GPR](#gaussian-process-regression)
+* [State Space Model](#state-space-model)
 
 ### Dynamic Time Warping
 
@@ -46,3 +47,16 @@ A Gaussian process is a probability distribution over possible functions that fi
 <p align=center>
 <img src=https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-24_at_3.44.34_PM.png width=300>
 <p/>
+
+### State Space Model
+
+* States (e.g. position)
+* Derivatives of States (e.g. speed, acceleration)
+* Speed can be influenced by both the position (i.e. x) and external energy/inputs (i.e. u)
+
+Linear Time-Invariant system
+* State equation
+* Output equation
+
+> State variables: minimum set of variables that fully describe the system
+
