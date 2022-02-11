@@ -3,6 +3,7 @@
 * [DTW](#dynamic-time-warping)
 * [GPR](#gaussian-process-regression)
 * [State Space Model](#state-space-model)
+* [Knowledge Distillation](#knowledge-distillation)
 
 ### Dynamic Time Warping
 
@@ -59,4 +60,28 @@ Linear Time-Invariant system
 * Output equation
 
 > State variables: minimum set of variables that fully describe the system
+
+### Knowledge Distillation
+
+Definition: extract information from the big model or ensamble model to a new simpler with less parameters while removing the not needed information
+
+Why Softmax:
+* Desire a probability distribution as output --> ground truth is one hot encoding
+* Exponential --> all entries are positive
+* Normalization --> add to 1
+
+Softmax tends to hide the relative similarity between the other classes.
+
+Add a parameter **T** (called temperature) to smooth the probability distribution, the higher T, the smoother. If we make the values of logits smaller before passing them to the softmax then we may retain the relativeness.
+
+<p align=center>
+<img src=https://miro.medium.com/max/620/1*kISX_umTkEvg7cM6dAyTtQ.png width=300>
+<p/>
+
+* Smooth logits = Soft labels (distilled network)
+* Regular vanilla = Hard labels
+
+<p align=center>
+<img src=https://i.stack.imgur.com/uOrit.png>
+<p/>
 
