@@ -96,12 +96,12 @@ Experiment:
 
 ### Transformer
 
+Lecture Video: https://www.youtube.com/watch?v=FC8PziPmxnQ
+
 * A seq2seq model
 * Not RNN
 * Purely based on attention and dense layers
 * Higher accuracy than RNNs (like LSTM) on large datasets
-
-https://www.youtube.com/watch?v=FC8PziPmxnQ
 
 1. Query (decoder) + Key (encoder) --> Softmax --> Alpha Weights
 2. Alpha Weights + Value (encoder) --> Context Vector
@@ -130,3 +130,17 @@ https://www.youtube.com/watch?v=FC8PziPmxnQ
 **2015**: Attention was originally developed for Seq2Seq RNN models
 **2016**: Self-attention: attention can improve all RNN models not necessarily Seq2Seq
 **2017**: Attention can be used without RNN
+
+#### Multi-Head Attention
+
+Run multiple single-head self-attentions (which do not share parameters)
+
+<p align=center>
+<img src=./mh-attention1.JPG width=600>
+<img src=./mh-attention2.JPG width=600>
+<img src=./encoder.JPG width=600>
+<img src=./decoder.JPG width=600>
+
+<p/>
+
+
