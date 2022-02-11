@@ -152,5 +152,8 @@ Run multiple single-head self-attentions (which do not share parameters)
 <img src=./transformer4.JPG width=600>
 <p/>
 
+y: distribution
+x': generated word
+
 Transformer has the same output and input shapes as RNN model.
 
