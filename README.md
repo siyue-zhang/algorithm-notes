@@ -4,6 +4,7 @@
 * [GPR](#gaussian-process-regression)
 * [State Space Model](#state-space-model)
 * [Knowledge Distillation](#knowledge-distillation)
+* [Transformer](#transformer)
 
 ### Dynamic Time Warping
 
@@ -124,6 +125,8 @@ https://www.youtube.com/watch?v=FC8PziPmxnQ
 <p align=center>
 <img src=./self-attention.JPG width=600>
 <img src=./self-attention2.JPG width=600>
-<img src=./self-attention3.JPG width=600>
 <p/>
 
+**2015**: Attention was originally developed for Seq2Seq RNN models
+**2016**: Self-attention: attention can improve all RNN models not necessarily Seq2Seq
+**2017**: Attention can be used without RNN
