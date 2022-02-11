@@ -171,6 +171,6 @@ Run multiple single-head self-attentions (which do not share parameters)
 * Input shape: (512 x m, 512 x t)
 * Output shape: 512 x t
 
-**Transformer is more computationally expensive than RNN models, but outperforming.**
+**Transformer is more computationally expensive than RNN models, but outperforming. It will require multi-GPUs.**
 
 
