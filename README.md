@@ -141,7 +141,16 @@ Run multiple single-head self-attentions (which do not share parameters)
 <img src=./encoder.JPG width=600>
 <img src=./decoder.JPG width=600>
 <img src=./decoder-block.JPG width=600>
-
 <p/>
 
+#### Transformer
+
+<p align=center>
+<img src=./transformer.JPG width=600>
+<img src=./transformer2.JPG width=600>
+<img src=./transformer3.JPG width=600>
+<img src=./transformer4.JPG width=600>
+<p/>
+
+Transformer has the same output and input shapes as RNN model.
 
