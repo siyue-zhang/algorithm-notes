@@ -85,3 +85,8 @@ Add a parameter **T** (called temperature) to smooth the probability distributio
 <img src=https://i.stack.imgur.com/uOrit.png>
 <p/>
 
+Experiment:
+
+<p align=center>
+<img src=./ND.JPG width=600>
+<p/>
