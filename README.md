@@ -75,7 +75,7 @@ Softmax tends to hide the relative similarity between the other classes.
 Add a parameter **T** (called temperature) to smooth the probability distribution, the higher T, the smoother. If we make the values of logits smaller before passing them to the softmax then we may retain the relativeness.
 
 <p align=center>
-<img src=https://miro.medium.com/max/620/1*kISX_umTkEvg7cM6dAyTtQ.png width=150>
+<img src=https://miro.medium.com/max/620/1*kISX_umTkEvg7cM6dAyTtQ.png>
 <p/>
 
 * Smooth logits = Soft labels (distilled network)
