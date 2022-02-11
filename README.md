@@ -136,6 +136,7 @@ Lecture Video: https://www.youtube.com/watch?v=FC8PziPmxnQ
 Run multiple single-head self-attentions (which do not share parameters)
 
 <p align=center>
+<img src=./mh.JPG width=600>
 <img src=./mh-attention1.JPG width=600>
 <img src=./mh-attention2.JPG width=600>
 <img src=./encoder.JPG width=600>
@@ -152,8 +153,24 @@ Run multiple single-head self-attentions (which do not share parameters)
 <img src=./transformer4.JPG width=600>
 <p/>
 
-y: distribution
-x': generated word
+* y: distribution
+* x': generated word
 
-Transformer has the same output and input shapes as RNN model.
+* Transformer has the same output and input shapes as RNN model.
+* Each block has its own parameters.
+
+**Encoder**
+* Encoder network = a stack of 6 blocks
+* 1 encoder block = 8-head self-attention + dense
+* Input shape: 512 x m
+* Output shape: 512 x m
+
+**Decoder**
+* Decoder network = a stack of 6 blocks
+* 1 decoder block = 8-head self-attention + 8-head attention + dense
+* Input shape: (512 x m, 512 x t)
+* Output shape: 512 x t
+
+**Transformer is more computationally expensive than RNN models, but outperforming.**
+
 
