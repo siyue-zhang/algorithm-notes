@@ -81,6 +81,8 @@ Add a parameter **T** (called temperature) to smooth the probability distributio
 * Smooth logits = Soft labels (distilled network)
 * Regular vanilla = Hard labels
 
+Multi-objective loss function
+
 <p align=center>
 <img src=https://i.stack.imgur.com/uOrit.png>
 <p/>
