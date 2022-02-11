@@ -92,3 +92,28 @@ Experiment:
 <p align=center>
 <img src=./ND.JPG width=600>
 <p/>
+
+### Transformer
+
+* A seq2seq model
+* Not RNN
+* Purely based on attention and dense layers
+* Higher accuracy than RNNs (like LSTM) on large datasets
+
+https://www.youtube.com/watch?v=FC8PziPmxnQ
+
+1. Query (decoder) + Key (encoder) --> Softmax --> Alpha Weights
+2. Alpha Weights + Value (encoder) --> Context Vector
+3. Output of attention layer (Context Vector) 
+
+**Context_i** is dependent on **Output_i** and **all Inputs**
+
+<p align=center>
+<img src=./attention.JPG>
+<img src=./attention2.JPG>
+<img src=./attention3.JPG>
+<img src=./attention4.JPG>
+<p/>
+
+
+
