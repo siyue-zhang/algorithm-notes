@@ -108,6 +108,8 @@ https://www.youtube.com/watch?v=FC8PziPmxnQ
 
 **Context_i** is dependent on **Output_i** and **all Inputs**
 
+#### Attention Layer
+
 <p align=center>
 <img src=./attention.JPG width=600>
 <img src=./attention2.JPG width=600>
@@ -115,5 +117,13 @@ https://www.youtube.com/watch?v=FC8PziPmxnQ
 <img src=./attention4.JPG width=600>
 <p/>
 
+#### Self-Attention Layer
 
+* No need decoder inputs
+
+<p align=center>
+<img src=./self-attention.JPG width=600>
+<img src=./self-attention2.JPG width=600>
+<img src=./self-attention3.JPG width=600>
+<p/>
 
